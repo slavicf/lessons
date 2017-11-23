@@ -1,4 +1,4 @@
-package JavaCore.Module2;
+package Practice.Module2;
 
 public class task11 {
 

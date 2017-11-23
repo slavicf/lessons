@@ -1,4 +1,4 @@
-package JavaCore.Module2;
+package Practice.Module2;
 
 import java.util.Scanner;
 
