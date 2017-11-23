@@ -2,7 +2,7 @@ package JavaCore.Module2;
 
 import java.util.Scanner;
 
-public class task9 {
+public class task09 {
 
     public static void main(String[] args) {
 

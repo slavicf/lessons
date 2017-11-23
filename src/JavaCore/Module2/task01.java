@@ -2,7 +2,7 @@ package JavaCore.Module2;
 
 import java.util.Scanner;
 
-public class task1 {
+public class task01 {
 
     public static void main(String[] args) {
 
@@ -13,12 +13,13 @@ public class task1 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите дробное A");
+        System.out.print("Введите дробное A: ");
         float a = scanner.nextFloat();
 
-        System.out.println("Введите дробное B");
+        System.out.print("Введите дробное B: ");
         float b = scanner.nextFloat();
 
+        System.out.println();
         System.out.println( a + " + " + b + " = " + (a + b) );
 
     }

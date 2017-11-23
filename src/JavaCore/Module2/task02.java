@@ -2,7 +2,7 @@ package JavaCore.Module2;
 
 import java.util.Scanner;
 
-public class task2 {
+public class task02 {
 
     public static void main(String[] args) {
 
@@ -12,12 +12,13 @@ public class task2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите ширину прямоугольника");
+        System.out.print("Введите ширину прямоугольника: ");
         int a = scanner.nextInt();
 
-        System.out.println("Введите высоту прямоугольника");
+        System.out.print("Введите высоту прямоугольника: ");
         int b = scanner.nextInt();
 
+        System.out.println();
         System.out.println( "Площадь прямоугольника составляет " + (a * b) );
 
     }

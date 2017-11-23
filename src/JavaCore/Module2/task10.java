@@ -46,7 +46,7 @@ public class task10 {
 
         System.out.println("2. Сколько раз встречается \"" + string2 + "\" в \"" + string1 + "\"? - " + count);
 
-        System.out.println("3. Где \"" + string2 + "\" в \"" + string1 + "\" встречается в первый раз? - " + index1);
+        System.out.println("3. Где \"" + string2 + "\" в \"" + string1 + "\" встречается в первый раз? - " + ++index1);
 
     }
 }

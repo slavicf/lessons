@@ -2,16 +2,16 @@ package JavaCore.Module2;
 
 import java.util.Scanner;
 
-public class task4 {
+public class task04 {
 
     public static void main(String[] args) {
 
 //      Задание 4
 //      Дано 2 числа - A и B.
 //      Вывести в консоль:
-//      равны ли эти числа между собой (true / false)
-//      делиться ли A на B без остатка (true / false)
-//      A больше чем B (true / false)
+//      - равны ли эти числа между собой (true / false)
+//      - делиться ли A на B без остатка (true / false)
+//      - A больше чем B (true / false)
 
         Scanner scanner = new Scanner(System.in);
 
@@ -29,7 +29,7 @@ public class task4 {
         System.out.println("Делится ли A на B без остатка? " + remainder);
 
         boolean greater = a > b; // a > b?
-        System.out.println("A больше B? " + greater);
+        System.out.println("A больше чем B? " + greater);
 
     }
 }

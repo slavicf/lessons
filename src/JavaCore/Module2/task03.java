@@ -2,7 +2,7 @@ package JavaCore.Module2;
 
 import java.util.Scanner;
 
-public class task3 {
+public class task03 {
 
     public static void main(String[] args) {
 
@@ -12,13 +12,13 @@ public class task3 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Введите сторону треугольника a:");
+        System.out.print("Введите сторону треугольника a: ");
         double a = scanner.nextDouble();
 
-        System.out.println("Введите сторону треугольника b:");
+        System.out.print("Введите сторону треугольника b :");
         double b = scanner.nextDouble();
 
-        System.out.println("Введите сторону треугольника c:");
+        System.out.print("Введите сторону треугольника c: ");
         double c = scanner.nextDouble();
 
         double p = (a + b + c) / 2;     // Вычисляем полупериметр для формулы Герона

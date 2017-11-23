@@ -2,24 +2,24 @@ package JavaCore.Module2;
 
 import java.util.Scanner;
 
-public class task5 {
+public class task05 {
 
     public static void main(String[] args) {
 
 //     Задание 5
 //     Дано 3 числа - A, B, C
 //     Вывести в консоль:
-//     является ли A наибольшим числом (true / false)
-//     является ли B наибольшим числом (true / false)
-//     является ли C наибольшим числом (true / false)
+//     - является ли A наибольшим числом (true / false)
+//     - является ли B наибольшим числом (true / false)
+//     - является ли C наибольшим числом (true / false)
 //
-//     является ли A наименьшим числом (true / false)
-//     является ли B наименьшим числом (true / false)
-//     является ли C наименьшим числом (true / false)
+//     - является ли A наименьшим числом (true / false)
+//     - является ли B наименьшим числом (true / false)
+//     - является ли C наименьшим числом (true / false)
 //
-//     является ли A промежуточным числом между B и C (true / false)
-//     является ли B промежуточным числом между A и C (true / false)
-//     является ли C промежуточным числом между A и B (true / false)
+//     - является ли A промежуточным числом между B и C (true / false)
+//     - является ли B промежуточным числом между A и C (true / false)
+//     - является ли C промежуточным числом между A и B (true / false)
 
         Scanner scanner = new Scanner(System.in);
 
