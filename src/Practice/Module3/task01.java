@@ -25,7 +25,7 @@ public class task01 {
         System.out.print("Введите число B: ");
         B = scanner.nextInt();
 
-        System.out.printf("\nВывод через метод: %d %d", ReverseInt(A), ReverseInt(B));
+        System.out.printf("%nВывод через метод: %d %d", ReverseInt(A), ReverseInt(B));
 
         while (A > 0){
             ReversedA *= 10;
@@ -39,7 +39,7 @@ public class task01 {
             B /= 10;
         }
 
-        System.out.printf("\nВывод через циклы: %d %d", ReversedA, ReversedB);
+        System.out.printf("%nВывод через циклы: %d %d", ReversedA, ReversedB);
 
     }
 
