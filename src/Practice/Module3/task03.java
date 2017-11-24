@@ -18,7 +18,7 @@ public class task03 {
 //        Вывести массив - результат всех сумм.
 
         Scanner scanner = new Scanner(System.in);
-//  ----------------------------------------------------------
+//  ---------------------- Ввод массива А --------------------
         System.out.println("Введите размер массива А: ");
             int ALength = scanner.nextInt();
             int[] A = new int[ALength];
@@ -26,7 +26,7 @@ public class task03 {
             for (int i = 0; i < ALength; i++) {
                 A[i] = scanner.nextInt();
             }
-//  ----------------------------------------------------------
+//  ---------------------- Ввод массива В --------------------
         System.out.println("Введите размер массива B: ");
             int BLength = scanner.nextInt();
             int[] B = new int[BLength];
@@ -34,7 +34,7 @@ public class task03 {
             for (int i = 0; i < BLength; i++) {
                 B[i] = scanner.nextInt();
             }
-//  ----------------------------------------------------------
+//  ---------------------- Суммирование ----------------------
         int CLength = ALength > BLength ? ALength : BLength;
             int[] C = new int[CLength];
             for (int i = 0; i < CLength; i++){
@@ -42,7 +42,7 @@ public class task03 {
                 int tempB = i < BLength ? B[i] : 0;
                     C[i] = tempA + tempB;
             }
-//  ----------------------------------------------------------
+//  ---------------------- Вывод массива С -------------------
         for (int element: C) {
             System.out.print(element + " ");
         }
