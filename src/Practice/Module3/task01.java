@@ -43,7 +43,7 @@ public class task01 {
 
     }
 
-    public static int ReverseInt(int x) {
+    private static int ReverseInt(int x) {
 
         int y = 0;
         while (x > 0){
